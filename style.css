@@ -1,0 +1,151 @@
+body {
+  
+  background-color: #FFF3D4   ;
+font-family: 'Special Elite', cursive;
+text-align: center;
+padding: 20px;
+font-size: 25px;
+}
+
+h1{
+
+font-family: 'Darumadrop One', cursive;
+text-align: center;
+font-size: 50px;
+
+}
+
+
+.name {
+
+  text-align: center;
+  padding: 30px;
+
+}
+
+.bff {
+
+display: inline-block;
+  padding: 10px;
+  color: darkseagreen;
+
+}
+
+.hobbie {
+display: inline-block;
+
+  color: orange;
+
+}
+
+.funtimes{
+display: inline-block;
+
+}
+
+.colorname{
+
+  color: deeppink;
+
+}
+
+
+.sademoji {
+
+  text-align: center;
+  padding: 30px;
+  font-size: 30px;
+}
+
+.hello {
+
+  text-align: center;
+  padding: 20px;
+}
+
+
+.choices {
+
+  padding-top: 60px;
+font-family: 'Nanum Brush Script', cursive;
+text-align: center;
+font-size: 50px;
+display: inline-block;
+
+}
+
+.rana{
+
+   display: block;
+  margin: 0 auto;
+  margin: -100px auto;
+}
+
+.cry{
+
+padding: 10px;
+font-family: 'Nanum Brush Script', cursive;
+font-size: 50px;
+display: inline-block;
+
+
+}
+
+.avoid{
+
+padding: 10px;
+font-family: 'Nanum Brush Script', cursive;
+font-size: 50px;
+text-align: center;
+}
+
+.cut{
+
+  padding: 10px;
+font-family: 'Nanum Brush Script', cursive;
+font-size: 50px;
+
+}
+
+ul {
+
+  text-align: left;
+      margin-left: 30px;
+      line-height: 1.5;
+    }
+
+
+    li {
+      color: #555;
+
+      margin-bottom: 50pxs;
+    }
+
+
+
+    li .highlight {
+
+      font-weight: bold;
+      color: #f44336;
+
+    }
+
+        li .highlight2 {
+
+      font-weight: bold;
+      color: limegreen;
+
+    }
+
+    .list {
+
+      margin: 30px;
+    }
+
+    .remember{
+
+      padding-top: 30px;
+    }
+
+
+
