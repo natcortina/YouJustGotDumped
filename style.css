@@ -26,14 +26,14 @@ font-size: 50px;
 .bff {
 
 display: inline-block;
-  padding: 10px;
+  padding: 50px;
   color: darkseagreen;
 
 }
 
 .hobbie {
 display: inline-block;
-
+  padding: 50px;
   color: orange;
 
 }
@@ -147,5 +147,28 @@ ul {
       padding-top: 30px;
     }
 
+
+
+.container {
+  position: relative;
+}
+
+.blue {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  top: -320px;
+  left: -70px;
+  z-index: 2;
+}
+
+.bigeye {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
+  top: -320px;
+  right: -70px;
+  z-index: 2;
+}
 
 
