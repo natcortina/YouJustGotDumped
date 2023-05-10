@@ -1,0 +1,71 @@
+/*page4 */
+
+
+.text1{
+ text-align: center;
+}
+
+.namepage4{
+
+
+   color: deeppink;
+   font-size: 60px;
+}
+
+.moto{
+
+  position: absolute;
+  max-width: 100%;
+
+  width: 400px;
+  height: 600px;
+  rotate: 20px;
+  height: auto;
+  top: 70px;
+  left: 900px;
+  z-index: -2;
+
+}
+
+.road{
+
+  position: absolute;
+  max-width: 100%;
+
+  width: 400px;
+  height: 600px;
+  rotate: 20px;
+  height: auto;
+  top: 390px;
+  left: 880px;
+  z-index: -3;
+
+}
+
+
+
+.text4{
+  text-align: left;
+  padding: 10px;
+}
+
+.twoptions{
+text-align: left;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.dizzy{
+
+  position: absolute;
+  max-width: 100%;
+
+  width: 200px;
+  height: 300px;
+  rotate: 20px;
+  height: auto;
+  top: -35px;
+  left: 0px;
+  z-index: -3;
+
+}

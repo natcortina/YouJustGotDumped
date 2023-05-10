@@ -1,3 +1,6 @@
+@import url('page4.css');
+
+@import url('page5.css');
 body {
   
   background-color: #FFF3D4   ;
@@ -26,9 +29,9 @@ font-size: 50px;
 .bff {
 
 display: inline-block;
-  padding: 50px;
+  padding: 10px;
   color: darkseagreen;
-
+margin: 0px;
 }
 
 .hobbie {
@@ -116,7 +119,7 @@ ul {
 
 
     li {
-      color: #555;
+      color: black;
 
       margin-bottom: 50pxs;
     }
@@ -171,4 +174,75 @@ ul {
   z-index: 2;
 }
 
+.crying {
+  position: absolute;
+  max-width: 100%;
 
+  width: 200px;
+  height: 200px;
+  rotate: 20px;
+  height: auto;
+  top: 20px;
+  right: 70px;
+  z-index: 2;
+}
+
+
+.heart {
+  position: absolute;
+  max-width: 100%;
+
+  width: 200px;
+  height: 200px;
+  rotate: 20px;
+  height: auto;
+  top: 20px;
+  left: 70px;
+  z-index: 2;
+}
+
+
+.beokay {
+  position: absolute;
+  max-width: 100%;
+
+  width: 400px;
+  height: 400px;
+  rotate: 20px;
+  height: auto;
+  bottom: 20px;
+  left: 70px;
+  z-index: 2;
+}
+
+.stitch {
+
+  margin: 0 auto;
+bottom: -100px;
+}
+
+
+.guts {
+margin: 0px;
+
+}
+
+/*page3 
+*/
+
+.maneye {
+
+display: block;
+margin: 0 auto;
+margin: -100px auto;
+padding: 100px;
+
+}
+
+.angel {
+
+   display: block;
+  margin: 0 auto;
+padding: 0px;
+
+}
