@@ -1,10 +1,12 @@
 
-
-
-
 .box{
-   display: block;
+  display: flex;
   margin: 0 auto;
   margin: -100px auto;
   padding-bottom: 50px;
+  
+  width: 30%;
+  transition: transform 0.3s ease-out;
 }
+
+

@@ -1,0 +1,184 @@
+.text6{
+
+line-height: 40px;
+}
+
+.image-grid {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.image-item {
+  position: relative;
+  width: 23%;
+  transition: transform 0.3s ease-in-out ;
+}
+
+.image-item img {
+  width: 100%;
+  display: block;
+}
+
+.image-item:hover {
+
+  transform: scale(1.1);
+}
+
+/* when mouse over*/
+
+.overlay {
+  position: absolute;
+  top: 30px;
+  left: 0;
+  width: 100%;
+  height: 30%;
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 18px;
+}
+
+/* when mouse over*/
+
+.image-item:hover .overlay {
+  opacity: 1;
+}
+
+
+.foodcolor {
+
+font-size: 25px;
+display: inline-block;
+  padding: 10px;
+  color: darkgoldenrod;
+margin: 0px;
+
+
+}
+
+
+.facts{
+
+padding-bottom: 50px;
+}
+
+
+
+.startagain{
+  size: 70px;
+  font-family: 'Darumadrop One', cursive;
+  text-align: left;
+
+}
+
+
+.baby1{
+margin: 0 auto;
+left: 100px;
+display: flex;
+width: 30%;
+transition: transform 0.3s ease-out;
+padding-bottom: 40px;
+}
+
+
+.sameline{
+margin: 0px ;
+display: inline-block;
+
+}
+
+
+
+.hobbiecolor {
+
+font-size: 25px;
+display: inline-block;
+  padding: 10px;
+  color: orange;
+margin: 0px;
+
+
+}
+
+.boldfont{
+    
+    font-size: 30px;
+  font-style: oblique;
+    font-weight: bolder;
+    padding: 50px;
+}
+
+
+/* last page image grid */
+
+
+
+.image-gridfinal {
+  display: flex;
+  justify-content: space-between;
+padding-bottom: 70px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-direction: row;
+}
+
+.image-itemfinal {
+  position: relative;
+
+/* dividing max width in 6 so max width per image is this one  */
+
+  width: 30.5%;
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.image-itemfinal img {
+  width: 100%;
+  display: block;
+}
+
+.image-itemfinal:hover {
+  transform: scale(1.1);
+}
+
+.image-itemfinal :hover::after {
+
+    position: absolute;
+  bottom: 5px;
+ 
+    right: 5px;
+  font-size: 20px;
+}
+
+.image-link {
+  display: block;
+  margin-top: 10px;
+  text-align: center;
+}
+
+
+.fudgedup{
+
+  color: red;
+}
+
+
+.continue {
+
+  size: 200px;
+  font-size: 80px;
+  font-family: 'Darumadrop One', cursive;
+  text-align: center;
+  padding: 20px;
+  margin: 60px;
+
+}
+

@@ -3,6 +3,7 @@ document.addEventListener("DOMContentLoaded",function(){
     document.querySelector("#name").addEventListener("keyup",function(){
 
         let val = this.value;
+      //  console.log(val)
 
        localStorage.setItem("name", val)
 
@@ -11,12 +12,22 @@ document.addEventListener("DOMContentLoaded",function(){
         document.querySelector("#bff").addEventListener("keyup",function(){
 
         let val = this.value;
+        console.log(val)
 
        localStorage.setItem("bff", val)
 
     })
 
-         document.querySelector("#hobbie").addEventListener("keyup",function(){
+        document.querySelector("#food").addEventListener("keyup",function(){
+
+        let val = this.value;
+
+       localStorage.setItem("food", val)
+
+    })
+
+
+     document.querySelector("#hobbie").addEventListener("keyup",function(){
 
         let val = this.value;
 
@@ -26,14 +37,23 @@ document.addEventListener("DOMContentLoaded",function(){
 
 })
 
+//  document.querySelector("#AorB").addEventListener('contextmenu', (event) => {
+     
+     //let 
 
-document.addEventListener("DOMContentLoaded",function(){
+ // console.log(event.button)
 
-    document.querySelector("#name").innerHTML = localStorage.getItem("name")
-    
-    document.querySelector("#bff").innerHTML = localStorage.getItem("bff")
 
-        document.querySelector("#hobbie").innerHTML = localStorage.getItem("hobbie")
+//})
 
-})
+
+
+
+
+
+
+
+
+
+
 
